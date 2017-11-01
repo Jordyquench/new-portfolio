@@ -124,61 +124,68 @@ a:hover {
 
 /*--------brief--------*/
 
+
 #brief{
 	float: left;
-	width: 100%;
 	background-color: #000;
-	height: 40em;
-}
-
-
-.brief{
-	margin-left: auto;
-	margin-right: auto;
-	height: 30em;
-	background-color: red;
+	height: 50em;
+	width: 100%;
 
 }
 
 
-.brief-title{
+.brief-intro{
+	width: 40vh;
+	height: 30vh;
 	float: left;
-	width: 16em;
-	height: 10em;
-	padding-top: 2em;
-
-}
-
-.brief-title h1{
-	float: left;
-	text-align: left;
-	font-size: 40px;
-	color: #fff;
-}
-
-.brief-title h2{
-	float: left;
-	text-align: left;
+	margin-left: 100px;
+	margin-top: 40px;
+	font-weight: 1000;
 	font-size: 20px;
+
+}
+
+
+.brief-big{
+	width: 40vh;
+	height: 40vh;
+	float: left;
+	background-color: #000;
+	font-weight: 1000;
+	font-size: 34px;
 	color: #fff;
-	margin-top: -.5em;
+}
+
+
+.brief-small{
+	float: left;
+	font-weight: none;
+	font-size: 16px;
+	margin-left: 1.3em;
+	margin-top: .5em;
+	color: #fff;
 }
 
 .brief-text{
 	float: left;
-	width: 980px;
-	text-align: left;
-	color: #fff;
-
+	width: 100%;
+	height: 50em;	
 }
 
-.brief-text p{
+
+.brief-para{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 50em;
+}
+
+.brief-para p{
 	margin-top: 1em;
 	margin-bottom: 1em;
 	font-size: 18px;
+	color: #fff;
 }
-
-
 
 
 /*--------end of about--------*/
