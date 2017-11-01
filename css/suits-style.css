@@ -11,11 +11,8 @@
 /*--------Header--------*/
 
 #hero{
-	background-color: #fff;
-	top: 0;
-	bottom: 0;
 	height: 100vh;
-	width: 100vh;
+	width: 100%;
 
 }
 
@@ -47,12 +44,13 @@
 }
 
 .cover-text{
-	float: left;
-	margin-left: 30em;
-	margin-top: -7.8em;
+	float: right;
 	width: 34em;
 	height: 17em;
 	font-size: 20px;
+	bottom: 0;
+	right: 0;
+	position: absolute;
 
 }
 
@@ -66,6 +64,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
+
+
 
 }
 
@@ -133,9 +133,11 @@ a:hover {
 
 
 .brief{
-	float: left;
-	width: 61.25em;
+	margin-left: auto;
+	margin-right: auto;
 	height: 30em;
+	background-color: red;
+
 }
 
 
@@ -167,6 +169,7 @@ a:hover {
 	width: 980px;
 	text-align: left;
 	color: #fff;
+
 }
 
 .brief-text p{
