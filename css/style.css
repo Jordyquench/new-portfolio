@@ -92,7 +92,7 @@ nav ul li{
 }
 
 
-a {
+nav a {
 	color: #000;
 	text-decoration: none;
 	font-weight: bold;
@@ -103,7 +103,7 @@ a {
 	-webkit-transition:.2s;
 }
 
-a:hover {
+nav a:hover {
 	color: #919090; 
 
 } 
@@ -160,7 +160,7 @@ a:hover {
 	float: left;
 	width: 30%;
 	height: 30%;
-	margin-top: 13em;
+	margin-top: 12em;
 	margin-left: -16em;
 }
 
@@ -168,7 +168,7 @@ a:hover {
 	float: right;
 	width: 50%;
 	height: 30%;
-	margin-top: 11em;
+	margin-top: 8em;
 	color: #fff;
 }
 
@@ -305,6 +305,12 @@ a:hover {
 	font-size: 22px;
 	transition: all .2s ease-in-out;
 
+
+}
+
+.suits-button a{
+	color: #000;
+	text-decoration: none;
 }
 
 .suits-button:hover {
@@ -313,19 +319,6 @@ a:hover {
 	transition: all .2s ease-in-out;
 }
 
-
-.suits-button{
-	float: left;
-	width: 80%;
-	height: 20%;
-	background-color: #fff;
-	margin-top: 1em;
-	color: #000;
-	text-align: center;
-	font-size: 22px;
-	transition: all .2s ease-in-out;
-
-}
 
 .suits-button:hover {
 	opacity: .6;
@@ -386,7 +379,13 @@ a:hover {
 	text-align: center;
 	font-size: 22px;
 	transition: all .2s ease-in-out;
+	text-decoration: none;
 
+}
+
+.bottle-button a{
+	color: #fff;
+	text-decoration: none;
 }
 
 .bottle-button:hover {
@@ -450,6 +449,11 @@ a:hover {
 
 }
 
+.away-button a{
+	color: #000;
+	text-decoration: none;
+}
+
 .away-button:hover {
 	opacity: .6;
 	transform: scale(.90);
@@ -474,7 +478,7 @@ a:hover {
 }
 
 
-.cv-intro{
+#cv-intro{
 	width: 40vh;
 	height: 50vh;
 	float: left;
@@ -506,6 +510,11 @@ a:hover {
 	font-size: 22px;
 	transition: all .2s ease-in-out;
 
+}
+
+.cv-button a{
+	color: #fff;
+	text-decoration: none;
 }
 
 .cv-button:hover {
@@ -542,7 +551,6 @@ a:hover {
 footer {
 	float: left;
     width: 100%;
-    height: 10em;
     background-color: #000;
     color: #ffffff;
     position: relative;
@@ -555,6 +563,7 @@ footer h1{
 .social-icons{
 	text-align: center;
 	font-size: 32px;
+	margin-top: .5em;
 }
 
 .social-icons:hover img{

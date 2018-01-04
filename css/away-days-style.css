@@ -121,9 +121,9 @@ a:hover {
 #brief{
 	float: left;
 	background-color: #000;
-	height: 100vh;
 	width: 100%;
 	color: #fff;
+	padding-bottom: 5em;
 
 }
 
@@ -265,7 +265,6 @@ a:hover {
 
 .final-intro{
 	width: 40vh;
-	height: 20vh;
 	float: left;
 	margin-left: 100px;
 	font-weight: 1000;
@@ -298,11 +297,11 @@ a:hover {
 	background-color: #000;
 }
 
-.suits-poster{
+.away-final{
 	margin-left: auto;
 	margin-right: auto;
-	width: 353px;
-	height: 500px;
+	width: 1068px;
+	height: 373px;
 	margin-top: 5em;
 
 }
